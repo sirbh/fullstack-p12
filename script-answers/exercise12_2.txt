@@ -1,0 +1,8 @@
+docker container run hello-world
+docker run -it ubuntu bash
+cd usr
+cd src
+mkdir app
+cd app
+touch index.js
+ls

@@ -1,0 +1,6 @@
+docker container ls -a
+docker start -i priceless_wright
+apt-get update
+apt-get -y install nano
+nano /usr/src/app/index.js
+cat index.js

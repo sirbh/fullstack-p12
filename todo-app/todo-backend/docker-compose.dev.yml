@@ -1,0 +1,14 @@
+version: '3.8'        
+
+services:
+  app:                    
+    image: to-do-server-dev
+    build:
+      context: . 
+      dockerfile: dev.Dockerfile               
+    ports:                
+      - 3001:3000
+    volumes:
+      - ./:/usr/src/app
+  debug-helper:
+    image: busybox
